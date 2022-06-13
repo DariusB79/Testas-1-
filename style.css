@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img {
+    height: 25px;
+    padding: 15px;
+}
+nav a {
+    height: 80px;
+    padding: 15px;
+    color: black;   
+}
+a {
+    text-decoration: none;
+}
+
+#red {
+    color: rgb(243, 16, 54);
+}
+
+
+#Free {
+    max-width: fit-content;
+    margin: auto;
+    background-image: url("assets/background.svg");
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    
+}
+
+.main  {
+    max-width: fit-content;
+    background: white;
+    margin: auto;
+    padding: 15px;
+    
+}
+main section:first-child {
+    flex: 3;
+}
+
+main section:last-child {
+    flex: 2;
+}
+
+.robotas {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.robotas img {
+    max-width: fit-content;
+    margin: auto;
+}
+
+button {
+    height: 25px;
+    background-color: white;
+    border: 3px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.Companies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
