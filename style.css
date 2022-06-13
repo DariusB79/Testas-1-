@@ -10,14 +10,19 @@ header {
 }
 
 header img {
-    height: 25px;
-    padding: 15px;
+    height: 35px;
+    padding: 25px;
 }
 nav a {
     height: 80px;
     padding: 15px;
     color: black;   
 }
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }
@@ -25,20 +30,20 @@ a {
 #red {
     color: rgb(243, 16, 54);
 }
-
-
-#Free {
-    max-width: fit-content;
-    margin: auto;
-    background-image: url("assets/background.svg");
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-
-    
+h1 {
+    font-size: 500%;
+  
 }
-
+h2 {
+    font-size: 250% ;
+  }
+h3 {
+    font-size: 120% ;
+    color: rgb(255, 0, 144);
+}
+p {
+    font-size: 120%;
+}
 .main  {
     max-width: fit-content;
     background: white;
@@ -46,11 +51,11 @@ a {
     padding: 15px;
     
 }
-main section:first-child {
+.robotas section:first-child {
     flex: 3;
 }
 
-main section:last-child {
+.robotas section:last-child {
     flex: 2;
 }
 
@@ -65,19 +70,165 @@ main section:last-child {
     margin: auto;
 }
 
+
+#Free {
+    background-image: url("assets/background.svg");
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    
+}
+
+#Free img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
 button {
-    height: 25px;
+    display: inline-block;
+    height: 60px;
+    width: 200px;
+    font-size: 150%;
+    font-weight: bold;
     background-color: white;
-    border: 3px;
-    border-radius: 5px;
-    border-color: red;
+    border-radius: 25px;
+    border: 3px solid red;
+   }
+
+
+button:hover {
+    background-color: rgb(255, 47, 147);
 }
 
 .Companies {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
+}
+
+.Zalia{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.Zalia section:first-child {
+    flex: ;
+}
+
+.Zalia section:last-child {
+    flex: 2;
+    }
+.Zalia img {
+    width: 100%;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p {
+    color: lightgrey;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.line {
+    height: 1px;
+background: rgb(182, 177, 177);
+
+}
+.icons {
+    font-size: 30px;
+    padding: 10px;
+    color: gray;
+    
+  }
+  .icons:hover {
+    color: rgb(129, 216, 112);
+
+}  
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 120px;
+       
+}
+
+td, th {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(137, 131, 131);
+        
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Table {
+    padding : 25px 25px;
+}
+.contact section:first-child {
+    flex: 4;
+}
+.contact section:last-child {
+    flex: 2;
+}
+.leles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+}   
+.card {
+    background-color:  rgb(212, 207, 207) ;
+    border-radius: 10px;
+} 
+.card img {
+    width: 250px;
+}  
+
+.top, .Mid, .Btm {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 45px;
+    
+    
+}
+#GS {
+    color: darkorange;
+    font-size: 15px;
+}
+#TP {
+    color: gray;
+    font-size: 15px;
+       
+}
+
+#Mid img {
+    width: 10px;
+}
+#Mid {
+    color: rgb(42, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+}
+#Btm {
+    font-size: 20px;
+    color: grey;
 }
